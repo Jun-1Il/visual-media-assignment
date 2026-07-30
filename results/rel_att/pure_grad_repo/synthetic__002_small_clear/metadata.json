@@ -1,0 +1,28 @@
+{
+  "source_image": "synthetic/002_small_clear.png",
+  "method": "pure_grad_repo",
+  "grid_shape": [
+    12,
+    20
+  ],
+  "target_token_id": 16,
+  "target_log_probability": -1.824075698852539,
+  "finite_difference": null,
+  "bbox_size": 224,
+  "crop": {
+    "bbox": [
+      1008,
+      54,
+      1232,
+      278
+    ],
+    "ratio": 1.0,
+    "window_blocks": [
+      2,
+      2
+    ],
+    "attention_difference": 0.7261423101963909
+  },
+  "normalize_by_general": true,
+  "median_kernel": 7
+}

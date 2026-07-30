@@ -1,0 +1,112 @@
+{
+  "model": "mlx-community/Qwen3-VL-2B-Instruct-4bit",
+  "max_pixels": 262144,
+  "selected_layer": 17,
+  "ensemble_layers": [
+    17,
+    21,
+    20
+  ],
+  "calibration_sample_ids": [
+    "synthetic/000_small_clear",
+    "synthetic/000_tiny_clear",
+    "synthetic/001_small_clear",
+    "synthetic/001_tiny_clear",
+    "synthetic/008_large_clear",
+    "synthetic/009_large_clear",
+    "synthetic/016_small_low_contrast",
+    "synthetic/017_small_low_contrast"
+  ],
+  "all_91": {
+    "baseline": {
+      "correct": 9,
+      "count": 91
+    },
+    "rel_att": {
+      "correct": 53,
+      "count": 91
+    },
+    "rel_att_ensemble": {
+      "correct": 52,
+      "count": 91
+    },
+    "rel_att_plus": {
+      "correct": 54,
+      "count": 91
+    },
+    "rel_att_high": {
+      "correct": 49,
+      "count": 91
+    },
+    "pure_grad": {
+      "correct": 16,
+      "count": 91
+    },
+    "pure_grad_repo": {
+      "correct": 18,
+      "count": 91
+    },
+    "pure_grad_high": {
+      "correct": 12,
+      "count": 91
+    },
+    "pure_grad_repo_high": {
+      "correct": 19,
+      "count": 91
+    },
+    "grad_att": {
+      "correct": 50,
+      "count": 91
+    },
+    "grad_att_high": {
+      "correct": 35,
+      "count": 91
+    }
+  },
+  "held_out_test": {
+    "baseline": {
+      "correct": 7,
+      "count": 83
+    },
+    "rel_att": {
+      "correct": 46,
+      "count": 83
+    },
+    "rel_att_ensemble": {
+      "correct": 45,
+      "count": 83
+    },
+    "rel_att_plus": {
+      "correct": 47,
+      "count": 83
+    },
+    "rel_att_high": {
+      "correct": 45,
+      "count": 83
+    },
+    "pure_grad": {
+      "correct": 14,
+      "count": 83
+    },
+    "pure_grad_repo": {
+      "correct": 16,
+      "count": 83
+    },
+    "pure_grad_high": {
+      "correct": 8,
+      "count": 83
+    },
+    "pure_grad_repo_high": {
+      "correct": 16,
+      "count": 83
+    },
+    "grad_att": {
+      "correct": 43,
+      "count": 83
+    },
+    "grad_att_high": {
+      "correct": 32,
+      "count": 83
+    }
+  }
+}

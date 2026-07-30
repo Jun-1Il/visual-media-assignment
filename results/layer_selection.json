@@ -1,0 +1,248 @@
+{
+  "model": "mlx-community/Qwen3-VL-2B-Instruct-4bit",
+  "max_pixels": 262144,
+  "visual_token_budget": 256,
+  "selection_protocol": "Rank by exact-match accuracy, target-center hits, target coverage, then center distance on the fixed calibration set.",
+  "calibration_sample_ids": [
+    "synthetic/000_small_clear",
+    "synthetic/000_tiny_clear",
+    "synthetic/001_small_clear",
+    "synthetic/001_tiny_clear",
+    "synthetic/008_large_clear",
+    "synthetic/009_large_clear",
+    "synthetic/016_small_low_contrast",
+    "synthetic/017_small_low_contrast"
+  ],
+  "selected_layer": 17,
+  "ensemble_layers": [
+    17,
+    21,
+    20
+  ],
+  "ranking": [
+    {
+      "layer": 17,
+      "correct": 7,
+      "count": 8,
+      "center_hits": 7,
+      "mean_target_coverage": 0.8613744076250001,
+      "mean_center_distance": 0.08642503425
+    },
+    {
+      "layer": 21,
+      "correct": 7,
+      "count": 8,
+      "center_hits": 7,
+      "mean_target_coverage": 0.84893364925,
+      "mean_center_distance": 0.061237040624999996
+    },
+    {
+      "layer": 20,
+      "correct": 7,
+      "count": 8,
+      "center_hits": 7,
+      "mean_target_coverage": 0.84893364925,
+      "mean_center_distance": 0.083247906
+    },
+    {
+      "layer": 24,
+      "correct": 7,
+      "count": 8,
+      "center_hits": 7,
+      "mean_target_coverage": 0.84893364925,
+      "mean_center_distance": 0.10601641475
+    },
+    {
+      "layer": 11,
+      "correct": 7,
+      "count": 8,
+      "center_hits": 6,
+      "mean_target_coverage": 0.757701421875,
+      "mean_center_distance": 0.11440942962499999
+    },
+    {
+      "layer": 18,
+      "correct": 6,
+      "count": 8,
+      "center_hits": 6,
+      "mean_target_coverage": 0.7363744076250001,
+      "mean_center_distance": 0.064364496
+    },
+    {
+      "layer": 19,
+      "correct": 6,
+      "count": 8,
+      "center_hits": 6,
+      "mean_target_coverage": 0.72393364925,
+      "mean_center_distance": 0.081931141125
+    },
+    {
+      "layer": 22,
+      "correct": 6,
+      "count": 8,
+      "center_hits": 6,
+      "mean_target_coverage": 0.72393364925,
+      "mean_center_distance": 0.09218232462499999
+    },
+    {
+      "layer": 25,
+      "correct": 5,
+      "count": 8,
+      "center_hits": 5,
+      "mean_target_coverage": 0.59893364925,
+      "mean_center_distance": 0.1169804015
+    },
+    {
+      "layer": 23,
+      "correct": 5,
+      "count": 8,
+      "center_hits": 5,
+      "mean_target_coverage": 0.59893364925,
+      "mean_center_distance": 0.16616277325
+    },
+    {
+      "layer": 14,
+      "correct": 5,
+      "count": 8,
+      "center_hits": 4,
+      "mean_target_coverage": 0.507701421875,
+      "mean_center_distance": 0.128570567125
+    },
+    {
+      "layer": 26,
+      "correct": 4,
+      "count": 8,
+      "center_hits": 4,
+      "mean_target_coverage": 0.486374407625,
+      "mean_center_distance": 0.140273220375
+    },
+    {
+      "layer": 16,
+      "correct": 4,
+      "count": 8,
+      "center_hits": 4,
+      "mean_target_coverage": 0.47393364925000003,
+      "mean_center_distance": 0.2268090485
+    },
+    {
+      "layer": 15,
+      "correct": 4,
+      "count": 8,
+      "center_hits": 2,
+      "mean_target_coverage": 0.25,
+      "mean_center_distance": 0.287600722
+    },
+    {
+      "layer": 8,
+      "correct": 3,
+      "count": 8,
+      "center_hits": 1,
+      "mean_target_coverage": 0.176540284375,
+      "mean_center_distance": 0.26396866075
+    },
+    {
+      "layer": 0,
+      "correct": 3,
+      "count": 8,
+      "center_hits": 1,
+      "mean_target_coverage": 0.125,
+      "mean_center_distance": 0.237990046625
+    },
+    {
+      "layer": 3,
+      "correct": 3,
+      "count": 8,
+      "center_hits": 1,
+      "mean_target_coverage": 0.11556603775,
+      "mean_center_distance": 0.25309541325
+    },
+    {
+      "layer": 4,
+      "correct": 2,
+      "count": 8,
+      "center_hits": 0,
+      "mean_target_coverage": 0.051540284375,
+      "mean_center_distance": 0.260487101125
+    },
+    {
+      "layer": 2,
+      "correct": 2,
+      "count": 8,
+      "center_hits": 0,
+      "mean_target_coverage": 0.002328811875,
+      "mean_center_distance": 0.261381156375
+    },
+    {
+      "layer": 6,
+      "correct": 2,
+      "count": 8,
+      "center_hits": 0,
+      "mean_target_coverage": 0.0,
+      "mean_center_distance": 0.250811520875
+    },
+    {
+      "layer": 1,
+      "correct": 2,
+      "count": 8,
+      "center_hits": 0,
+      "mean_target_coverage": 0.0,
+      "mean_center_distance": 0.25630575725
+    },
+    {
+      "layer": 5,
+      "correct": 2,
+      "count": 8,
+      "center_hits": 0,
+      "mean_target_coverage": 0.0,
+      "mean_center_distance": 0.281292156875
+    },
+    {
+      "layer": 10,
+      "correct": 2,
+      "count": 8,
+      "center_hits": 0,
+      "mean_target_coverage": 0.0,
+      "mean_center_distance": 0.28416016437499997
+    },
+    {
+      "layer": 7,
+      "correct": 2,
+      "count": 8,
+      "center_hits": 0,
+      "mean_target_coverage": 0.0,
+      "mean_center_distance": 0.318750739375
+    },
+    {
+      "layer": 13,
+      "correct": 2,
+      "count": 8,
+      "center_hits": 0,
+      "mean_target_coverage": 0.0,
+      "mean_center_distance": 0.336810240875
+    },
+    {
+      "layer": 27,
+      "correct": 2,
+      "count": 8,
+      "center_hits": 0,
+      "mean_target_coverage": 0.0,
+      "mean_center_distance": 0.34220203512499997
+    },
+    {
+      "layer": 9,
+      "correct": 2,
+      "count": 8,
+      "center_hits": 0,
+      "mean_target_coverage": 0.0,
+      "mean_center_distance": 0.375833917875
+    },
+    {
+      "layer": 12,
+      "correct": 2,
+      "count": 8,
+      "center_hits": 0,
+      "mean_target_coverage": 0.0,
+      "mean_center_distance": 0.39155483525
+    }
+  ]
+}

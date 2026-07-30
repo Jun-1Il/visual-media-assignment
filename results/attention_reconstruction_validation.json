@@ -1,0 +1,49 @@
+{
+  "model": "mlx-community/Qwen3-VL-2B-Instruct-4bit",
+  "mlx_version": "0.32.0",
+  "mlx_vlm_version": "0.6.6",
+  "sample_id": "synthetic/000_tiny_clear",
+  "layer": 17,
+  "max_pixels": 262144,
+  "criterion": {
+    "relative_l2_error_at_most": 0.01,
+    "attention_row_sum_error_at_most": 1e-06
+  },
+  "task_prompt": "Read the exact four-character code inside the red outlined box. Answer with only the four characters. Answer the question using a single word or phrase.",
+  "general_prompt": "Write a general description of the image. Answer the question using a single word or phrase.",
+  "task": {
+    "layer": 17,
+    "grid_shape": [
+      12,
+      20
+    ],
+    "image_token_span": [
+      4,
+      244
+    ],
+    "max_abs_error": 0.0625,
+    "mean_abs_error": 0.012715103104710579,
+    "relative_l2_error": 0.008852279745042324,
+    "relative_max_error": 0.001923076924867928,
+    "attention_row_sum_error": 2.384185791015625e-07,
+    "reference_max_abs": 32.5
+  },
+  "general": {
+    "layer": 17,
+    "grid_shape": [
+      12,
+      20
+    ],
+    "image_token_span": [
+      4,
+      244
+    ],
+    "max_abs_error": 0.0625,
+    "mean_abs_error": 0.011755993589758873,
+    "relative_l2_error": 0.00913263764232397,
+    "relative_max_error": 0.0021834061481058598,
+    "attention_row_sum_error": 2.384185791015625e-07,
+    "reference_max_abs": 28.625
+  },
+  "passed": true
+}

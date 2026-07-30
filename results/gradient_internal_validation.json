@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/Qwen3-VL-2B-Instruct-4bit",
+  "mlx_version": "0.32.0",
+  "mlx_vlm_version": "0.6.6",
+  "sample_id": "synthetic/000_tiny_clear",
+  "layer": 17,
+  "author_max_pixels": 262144,
+  "gradient_crosscheck_pixels": 4096,
+  "grad_attention": {
+    "grid_shape": [
+      12,
+      20
+    ],
+    "reference_argmax": 22,
+    "explicit_argmax": 22,
+    "argmax_identical": true,
+    "final_logits_relative_l2_error": 0.0,
+    "map_formula_max_abs_error": 0.0,
+    "attention_gradient_finite": true,
+    "attention_gradient_nonzero": true
+  },
+  "pure_gradient": {
+    "grid_thw": [
+      1,
+      2,
+      4
+    ],
+    "pixel_values_shape": [
+      8,
+      1536
+    ],
+    "target_token_id": 16,
+    "patch_embed_forward_relative_l2_error": 0.0027568499166005065,
+    "implementation_vs_validation_path_gradient_relative_l2_error": 0.0,
+    "implementation_vs_validation_path_gradient_max_abs_error": 0.0,
+    "validation_path_gradient_finite": true,
+    "validation_path_gradient_nonzero": true
+  },
+  "criteria": {
+    "grad_attention_argmax_identical": true,
+    "grad_attention_map_formula_max_abs_error_at_most": 1e-12,
+    "pure_gradient_patch_embed_relative_l2_error_at_most": 0.01,
+    "pure_gradient_implementation_vs_validation_path_relative_l2_error_at_most": 0.01
+  },
+  "passed": true
+}

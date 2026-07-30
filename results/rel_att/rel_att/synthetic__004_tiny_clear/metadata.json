@@ -1,0 +1,28 @@
+{
+  "source_image": "synthetic/004_tiny_clear.png",
+  "attention_layer": 17,
+  "grid_shape": [
+    12,
+    20
+  ],
+  "image_token_span": [
+    4,
+    244
+  ],
+  "general_prompt": "Write a general description of the image. Answer the question using a single word or phrase.",
+  "bbox_size": 224,
+  "crop": {
+    "bbox": [
+      208,
+      471,
+      432,
+      695
+    ],
+    "ratio": 1.0,
+    "window_blocks": [
+      2,
+      2
+    ],
+    "attention_difference": 149.22729680864887
+  }
+}

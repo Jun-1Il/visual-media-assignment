@@ -1,0 +1,26 @@
+[project]
+name = "vicrop-mlx-assignment"
+version = "1.0.0"
+description = "Training-free visual cropping experiments with MLX-VLM for small visual details"
+requires-python = ">=3.10"
+dependencies = [
+  "mlx==0.32.0",
+  "mlx-vlm==0.6.6",
+  "numpy==2.5.1",
+  "opencv-python==5.0.0.93",
+  "Pillow==12.3.0",
+]
+
+[project.optional-dependencies]
+report = [
+  "matplotlib>=3.10",
+  "pdfplumber>=0.11",
+  "pypdf>=6.0",
+  "reportlab>=4.4",
+]
+test = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

@@ -1,0 +1,44 @@
+{
+  "source_image": "synthetic/026_multi_region_relation.png",
+  "method": "median-MAD standardized log rel-att layer ensemble",
+  "layers": [
+    17,
+    21,
+    20
+  ],
+  "grid_shape": [
+    12,
+    20
+  ],
+  "general_prompt": "Write a general description of the image. Answer the question using a single word or phrase.",
+  "crops": [
+    {
+      "bbox": [
+        1008,
+        638,
+        1232,
+        862
+      ],
+      "ratio": 1.0,
+      "window_blocks": [
+        2,
+        2
+      ],
+      "attention_difference": 0.7020143221745112
+    },
+    {
+      "bbox": [
+        208,
+        471,
+        432,
+        695
+      ],
+      "ratio": 1.0,
+      "window_blocks": [
+        2,
+        2
+      ],
+      "attention_difference": 0.5137787113069563
+    }
+  ]
+}

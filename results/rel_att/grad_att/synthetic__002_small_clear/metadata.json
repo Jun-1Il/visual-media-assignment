@@ -1,0 +1,31 @@
+{
+  "source_image": "synthetic/002_small_clear.png",
+  "method": "grad_att",
+  "grid_shape": [
+    12,
+    20
+  ],
+  "target_token_id": 16,
+  "target_log_probability": -1.824075698852539,
+  "finite_difference": null,
+  "bbox_size": 224,
+  "crop": {
+    "bbox": [
+      1008,
+      776,
+      1232,
+      1000
+    ],
+    "ratio": 1.0,
+    "window_blocks": [
+      2,
+      2
+    ],
+    "attention_difference": 0.0008389360951556867
+  },
+  "attention_layer": 17,
+  "image_token_span": [
+    4,
+    244
+  ]
+}
